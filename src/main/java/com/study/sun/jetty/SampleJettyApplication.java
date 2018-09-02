@@ -29,7 +29,7 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
 @EnableAutoConfiguration
 @ComponentScan
 public class SampleJettyApplication extends SpringBootServletInitializer{
-
+/// <>
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(SampleJettyApplication.class, args);
 	}
